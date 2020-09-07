@@ -21,4 +21,3 @@ if __name__ == "__main__":
     conn = ssh_init(ip=ip,username=username,password=password)
     execve(conn,"ls")
     shutdown(conn)
-
