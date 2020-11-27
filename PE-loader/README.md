@@ -55,6 +55,7 @@ DOS、PE文件头、区块表直接拷贝，无偏移，从`SizeOfHeaders`中获
 #define _CRT_SECURE_NO_WARNINGS
 #include <windows.h>
 #include<stdio.h>
+#define AUTHOR cmFkaXNoZXMudG9w
 
 IMAGE_DOS_HEADER* dos_header;
 IMAGE_NT_HEADERS* nt_header;
