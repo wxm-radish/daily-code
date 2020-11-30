@@ -171,6 +171,7 @@ GetModuleInformation(
 #include <Psapi.h>
 #include <time.h>
 #include <string.h>
+#define AUTHOR cmFkaXNoZXMudG9w
 
 SIZE_T read_num()
 {
